@@ -1,5 +1,7 @@
 ;;; themes/vscode-treemacs-theme.el -*- lexical-binding: t; -*-
 (require 'find-func)
+(require 'treemacs)
+(require 'all-the-icons)
 
 (with-eval-after-load 'treemacs
   (treemacs-create-theme "vscode-treemacs-theme"
